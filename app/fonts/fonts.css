@@ -46,3 +46,27 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('HelveticaNeueCyr-Light.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Light.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('HelveticaNeueCyr-Roman.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('HelveticaNeueCyr-Medium.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Medium.woff') format('woff');
+    font-weight: 550;
+    font-style: normal;
+}
+

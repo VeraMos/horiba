@@ -15,5 +15,98 @@ $(document).ready(function () {
         $(this).toggleClass('active');
     });
 
+   $('.novelty-list').slick({
+        //dots: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow: '<button class="prev-left__n"></button>',
+        nextArrow: '<button class="prev-right__n"></button>',
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    //dots: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: true,
+                    variableWidth: true,                
+                }
+            },
+            {
+                breakpoint: 320,
+                settings: {
+                    dots: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: true,
+                    variableWidth: true,
+                    prevArrow: false,
+                    nextArrow: false
+                }
+            }
+        ]
+    });
+
+    $('.news-slider').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow: '<button class="prev-left__news"></button>',
+        nextArrow: '<button class="prev-right__news"></button>',
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    //dots: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: true,
+                    variableWidth: true, 
+                }
+            },
+            {
+                breakpoint: 320,
+                settings: {
+                    dots: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: true,
+                    variableWidth: true,
+                    prevArrow: false,
+                    nextArrow: false
+                }
+            }
+        ]
+    });
+
 
   });
