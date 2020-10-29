@@ -112,4 +112,12 @@ $(document).ready(function () {
     });
 
 
+$('.header-search__btn').click(function () {
+        $('.search-block').slideToggle();
+    });
+
+$('.search-close').click(function () {
+        $('.search-block').hide();
+    });
+
   });
