@@ -49,6 +49,7 @@ a:hover {
   font-size: 18px;
   line-height: 30px;
   padding: 0 15px;
+  position: relative;
 }
 
 .header-menu__link:hover {
@@ -326,7 +327,7 @@ a:hover {
     height: 100%;
     background-image: url(../img/bg-about.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .btn{
@@ -845,6 +846,10 @@ a:hover {
   margin-bottom: 10px;
 }
 
+.footer-tel:hover {
+  color: #000;
+}
+
 .footer-logo__wpr {
   text-align: right;
 }
@@ -917,7 +922,7 @@ a:hover {
   fill: #fff;
 }
 
-.footer-item__link:hover {
+.footer-item__link:hover, .footer-subitem__link:hover {
   color: #1191D0;
 }
 
@@ -1105,4 +1110,58 @@ a:hover {
   background-image: url(../img/bnt-str.svg);
   top: 20px;
   right: 39px;
+}
+
+.footer-contacts__mail {
+  text-decoration: underline;
+}
+
+.footer-contacts__mail:hover {
+  text-decoration: none;
+}
+
+.subscribe-block a {
+  color: #1191D0;
+}
+
+.header-submenu-wrp {
+  position: absolute;
+  background: #f6f6f6;
+  width: 100%;
+  top: 100px;
+  left: 0;
+  z-index: 10;
+  padding: 60px 0 80px;
+  display: none;
+}
+
+.header-submenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu__item:hover .header-submenu-wrp {
+  display: block;
+}
+
+.header-menu__item {
+  padding: 40px 0 50px;
+}
+
+.header-submenu__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-submenu__link {
+  font-family: 'Formular';
+  font-size: 16px;
+  line-height: 18px;
+  color: #262626;
+  margin-bottom: 30px;
+}
+
+.header-submenu__link:hover {
+  color: #1191D0;
 }

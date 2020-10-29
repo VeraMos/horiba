@@ -13,50 +13,80 @@
 	<link href="libs/dist/jquery.formstyler.theme.css" rel="stylesheet" />
 </head>
 <body>
-	<header class="main-header">
-		<div class="container">
-			<div class="header-wrp d-flex flex-wrap">
-				<a href="/" class="header-logo"><img src="img/logo-h1.svg" alt="Horiba"></a>
-			
-				<div class="header-menu__wpr d-flex">
-					<ul class="header-menu d-flex flex-wrap">
-						<li><a href="#popup_request" class="header-menu__link" data-fancybox="">О компании</a></li>
-						<li><a href="#popup_cost" class="header-menu__link" data-fancybox="">Информация</a></li>
-						<li><a href="" class="header-menu__link">Каталог</a></li>
-						<li><a href="" class="header-menu__link">В наличии</a></li>
-						<li><a href="" class="header-menu__link">Лаборатория</a></li>
-						<li><a href="" class="header-menu__link">Новости</a></li>
-						<li><a href="" class="header-menu__link">Контакты</a></li>
-					</ul>
-
-					<button type="button" class="header-search__btn">
-						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path fill-rule="evenodd" clip-rule="evenodd" d="M9 2C5.13401 2 2 5.13401 2 9C2 12.866 5.13401 16 9 16C12.866 16 16 12.866 16 9C16 5.13401 12.866 2 9 2ZM0 9C0 4.02944 4.02944 0 9 0C13.9706 0 18 4.02944 18 9C18 13.9706 13.9706 18 9 18C4.02944 18 0 13.9706 0 9Z" fill="black"/>
-						<path fill-rule="evenodd" clip-rule="evenodd" d="M13.9429 13.9429C14.3334 13.5523 14.9666 13.5523 15.3571 13.9429L19.7071 18.2928C20.0976 18.6834 20.0976 19.3166 19.7071 19.7072C19.3166 20.0977 18.6834 20.0977 18.2929 19.7072L13.9429 15.3571C13.5524 14.9665 13.5524 14.3334 13.9429 13.9429Z" fill="black"/>
-						</svg>
-					</button>
-
-					<div class="search-block">
-						<div class="container">
-							<form class="search-form">
-								<input class="search-input" type="text" placeholder="Спектроскопический эллипсометр">
-								<div class="search-btn__wpr d-flex">
-								<button class="search-close" type="button">
-									<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M1 1L7 7M7 7L1 13M7 7L13 1M7 7L13 13" stroke="#262626" stroke-width="2"/>
-									</svg>
-								</button>
-								<button class="btn btn-search" type="button">Искать</button>
-								</div>
-							</form>	
+<header class="main-header">
+	<div class="container">
+		<div class="header-wrp d-flex flex-wrap">
+			<a href="/" class="header-logo"><img src="img/logo-h1.svg" alt="Horiba"></a>
+		
+			<div class="header-menu__wpr d-flex">
+				<ul class="header-menu d-flex flex-wrap">
+					<li class="header-menu__item"><a href="#popup_request" class="header-menu__link" data-fancybox="">О компании</a></li>
+					<li class="header-menu__item"><a href="#popup_cost" class="header-menu__link" data-fancybox="">Информация</a></li>
+					<li class="header-menu__item"><a href="" class="header-menu__link">Каталог</a>
+						<div class="header-submenu-wrp">
+							<div class="container">
+								<div class="header-submenu">
+								<ul class="header-submenu__list">
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Научные приборы и системы</a></li>
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Процессы и окружающая среда</a></li>
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Автомобильные испытательные системы </a></li>
+								</ul>
+								<ul class="header-submenu__list">
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Анализаторы газов (СS, NOH) в металлах</a></li>
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Анализаторы размеров частиц</a></li>
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Анализаторы серы и хлора нефтепродуктах</a></li>
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Вакуумные спектрометры (VUV)</a></li>
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Монохроматоры и спектрографы</a></li>
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Спектрометры с индуктивно связанной  плазмой (ИСП-ОЭС)</a></li>
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Спектрометры тлеющего разряда</a></li>
+								</ul>
+								<ul class="header-submenu__list">
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Рамановские спектрометры</a></li>
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Рентгено-флуоресцентные  спектрометры</a></li>
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Системы СЗМ-Раман</a></li>
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Системы поверхностного плазмонного резонанса</a></li>
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Сканирующие зондовые микроскопы СЗМ</a></li>
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Спектрофлуориметры</a></li>
+									<li class="header-submenu__item"><a class="header-submenu__link" href="">Эллипсометры</a></li>
+								</ul>
+							  </div>
+							</div>
 						</div>
-					</div>
+					</li>
+					<li class="header-menu__item"><a href="" class="header-menu__link">В наличии</a></li>
+					<li class="header-menu__item"><a href="" class="header-menu__link">Лаборатория</a></li>
+					<li class="header-menu__item"><a href="" class="header-menu__link">Новости</a></li>
+					<li class="header-menu__item"><a href="" class="header-menu__link">Контакты</a></li>
+				</ul>
 
+				<button type="button" class="header-search__btn">
+					<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M9 2C5.13401 2 2 5.13401 2 9C2 12.866 5.13401 16 9 16C12.866 16 16 12.866 16 9C16 5.13401 12.866 2 9 2ZM0 9C0 4.02944 4.02944 0 9 0C13.9706 0 18 4.02944 18 9C18 13.9706 13.9706 18 9 18C4.02944 18 0 13.9706 0 9Z" fill="black"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M13.9429 13.9429C14.3334 13.5523 14.9666 13.5523 15.3571 13.9429L19.7071 18.2928C20.0976 18.6834 20.0976 19.3166 19.7071 19.7072C19.3166 20.0977 18.6834 20.0977 18.2929 19.7072L13.9429 15.3571C13.5524 14.9665 13.5524 14.3334 13.9429 13.9429Z" fill="black"/>
+					</svg>
+				</button>
+
+				<div class="search-block">
+					<div class="container">
+						<form class="search-form">
+							<input class="search-input" type="text" placeholder="Спектроскопический эллипсометр">
+							<div class="search-btn__wpr d-flex">
+							<button class="search-close" type="button">
+								<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1 1L7 7M7 7L1 13M7 7L13 1M7 7L13 13" stroke="#262626" stroke-width="2"/>
+								</svg>
+							</button>
+							<button class="btn btn-search" type="button">Искать</button>
+							</div>
+						</form>	
+					</div>
 				</div>
+
 			</div>
 		</div>
+	</div>
 
-	</header>
+</header>
 
 	<section class="main-slider">
 		<div class="main-slider__list">
@@ -328,7 +358,7 @@
 			<div class="d-flex">
 			<p class="subscribe-ttl">Не пропустите интересные новости от HORIBA</p>
 			<div class="subscribe-block">
-				<p>HORIBA регулярно публикует новости и пресс-релизы о корпоративной информации, новых продуктах и усовершенствованиях, технологических достижениях, приобретениях и т. д. Оставьте ваш e-mail и получайте уведомления о наших новостях прямо на почту. Нажимая кнопку «Подписаться», вы даете согласие на обработку своих персональных данных.</p>
+				<p>HORIBA регулярно публикует новости и пресс-релизы о корпоративной информации, новых продуктах и усовершенствованиях, технологических достижениях, приобретениях и т. д. Оставьте ваш e-mail и получайте уведомления о наших новостях прямо на почту. Нажимая кнопку «Подписаться», <a href="">вы даете согласие на обработку своих персональных данных</a>.</p>
 				<form class="subscribe-form">
 					<input class="subscribe-form__input" type="email" name="" placeholder="Введите ваш e-mail">
 					<button class="btn subscribe__btn" type="submit">Подписаться</button>
@@ -369,8 +399,8 @@
 						<a href="tel:+74952222222" class="footer-tel">+7 495 222 22 22</a>
 						<a href="tel:+78008008080" class="footer-tel">+7 800 800 80 80</a>
 						<p>Научный переулок, д. 10, стр. 50<br>
-							<a href="mailto:info@site.ru">info@site.ru</a> для предложений<br>
-							<a href="mailto:sales@site.ru">sales@site.ru</a> для заявок</p>
+							<a class="footer-contacts__mail" href="mailto:info@site.ru">info@site.ru</a> для предложений<br>
+							<a class="footer-contacts__mail" href="mailto:sales@site.ru">sales@site.ru</a> для заявок</p>
 					</div>
 					<ul class="footer-menu">
 						<li class="footer-item"><a href="" class="footer-item__link">O компании</a></li>
