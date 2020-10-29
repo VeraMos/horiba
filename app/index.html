@@ -20,8 +20,8 @@
 			
 				<div class="header-menu__wpr d-flex">
 					<ul class="header-menu d-flex flex-wrap">
-						<li><a href="" class="header-menu__link">О компании</a></li>
-						<li><a href="" class="header-menu__link">Информация</a></li>
+						<li><a href="#popup_request" class="header-menu__link" data-fancybox="">О компании</a></li>
+						<li><a href="#popup_cost" class="header-menu__link" data-fancybox="">Информация</a></li>
 						<li><a href="" class="header-menu__link">Каталог</a></li>
 						<li><a href="" class="header-menu__link">В наличии</a></li>
 						<li><a href="" class="header-menu__link">Лаборатория</a></li>
@@ -49,7 +49,7 @@
 						<p class="banner-ttl">200 лет</p>
 						<p class="banner-subttl">создаем высокоточные приборы</p>
 						<p class="banner-text">Представительство концерна HORIBA в России</p>
-						<a href="#popup_request" class="btn-slider" data-fancybox="">Узнать больше</a>
+						<a href="#popup_request" class="btn-slider">Узнать больше</a>
 					</div>
 				</div>
 			</div>
@@ -59,7 +59,7 @@
 						<p class="banner-ttl">200 лет</p>
 						<p class="banner-subttl">создаем высокоточные приборы</p>
 						<p class="banner-text">Представительство концерна HORIBA в России</p>
-						<a href="#popup_request" class="btn-slider" data-fancybox="">Узнать больше</a>
+						<a href="" class="btn-slider">Узнать больше</a>
 					</div>
 				</div>
 			</div>
@@ -330,7 +330,7 @@
 				<div class="about-block">
 					<p>Группа HORIBA, состоящая из 49 компаний в 27 странах, является ведущей компанией, поставляющей аналитические и измерительные системы по всему миру. С момента основания HORIBA RADIO LABORATORY в Японии в 1945 году, компания выросла как научно-исследовательская компания и занялась международными операциями, максимально используя свой опыт и встречи с людьми на этом пути. Мы продолжаем удовлетворять разнообразные потребности мира с помощью наших технологий измерения и анализа.</p>
 				
-				<a href="" class="btn about__btn">Узанть больше</a>
+				<a href="" class="btn about__btn">Узнать больше</a>
 				</div>
 				<div class="about__img">
 					<img src="img/about-h.jpg" alt="">
@@ -405,12 +405,33 @@
 
 	<div id="popup_request" class="popup__container" style="display:none">
 		<div class="popup__ttl">Отправить запрос</div>
-		<div class="popop__text">Задайте вопрос, уточните наличие и просто запросите информацию о товаре: Спектрометр комбинационного рассеяния (рамановский) LabRAM HR Evolution</div>
-		<form>
+		<div class="popop__text">Задайте вопрос, уточните наличие и просто запросите информацию о товаре: <b>Спектрометр комбинационного рассеяния (рамановский) LabRAM HR Evolution</b></div>
+		<form class="popup-form">
 			<input class="popup-input" type="text" name="" placeholder="Имя*">
 			<input class="popup-input" type="tel" name="" placeholder="Номер телефона*">
 			<input class="popup-input" type="email" name="" placeholder="E-mail*">
-			<select>
+			<select class="popup-input">
+				<option>Направление</option>
+				<option>Научные приборы и системы</option>
+				<option>Процессы и окружающая среда</option>
+				<option>Автомобильные испытательные системы</option>
+			</select>
+			<input class="popup-input w-100" type="text" name="" placeholder="Ваше сообщение">
+			<div class="popup__policy">
+				<p>Нажимая на кнопку «Отправить сообщение», вы даёте <a href="#">согласие на обработку персональных данных</a></p>
+			</div>
+			<button class="btn btn-popup">Отправить сообщение</button>
+		</form>
+	</div>
+
+	<div id="popup_cost" class="popup__container" style="display:none">
+		<div class="popup__ttl">Узнать стоимость</div>
+		<div class="popop__text">Заполните данную форму, и мы вышлем актуальную информацию о стоимости товара: <b>Спектрометр комбинационного рассеяния (рамановский) LabRAM HR Evolution</b></div>
+		<form class="popup-form">
+			<input class="popup-input" type="text" name="" placeholder="Имя*">
+			<input class="popup-input" type="tel" name="" placeholder="Номер телефона*">
+			<input class="popup-input" type="email" name="" placeholder="E-mail*">
+			<select class="popup-input">
 				<option>Направление</option>
 				<option>Научные приборы и системы</option>
 				<option>Процессы и окружающая среда</option>

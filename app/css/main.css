@@ -938,6 +938,7 @@ a:hover {
   line-height: 50px;
   text-align: center;
   color: #1191D0;
+  margin-bottom: 40px;
 }
 
 .popop__text {
@@ -949,12 +950,87 @@ a:hover {
   text-align: center;
   color: #000000;
   max-width: 903px;
+  margin-bottom: 40px;
 }
 
 .main-header {
   background-color: #fff;
 }
 
-.subscribe-form__input:focus {
+.subscribe-form__input:focus, .popup-input:focus {
   outline: none;
+}
+
+.popup-input {
+  width: 380px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid #000;
+  padding: 11px 0;
+  background: transparent;
+  margin-bottom: 40px;
+}
+
+.popup-input::placeholder {
+  font-family: 'HelveticaNeueCyr';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.popup__container {
+  max-width: 1056px;
+}
+
+.popup-form {
+  max-width: 787px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.popup__policy {
+  font-family: 'HelveticaNeueCyr';
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #000;
+  display: block;
+  margin: 0 auto;
+}
+
+.popup__policy a {
+  text-decoration: underline;
+  color: #1191D0;
+}
+
+.btn-popup.btn::after {
+  display: none;
+}
+
+.btn-popup {
+  display: block;
+  margin: 40px auto 0;
+  width: 250px;
+  height: 60px;
+  padding: 17px 20px;;
+}
+
+.fancybox-content {
+  overflow: visible;
+}
+
+.fancybox-close-small {
+  right: 40px!important;
+  top: -18px!important;
+  background: #1191D0;
+  border-radius: 50px;
+  opacity: 1!important;
+}
+
+.fancybox-button svg path {
+    fill: #fff;
 }
