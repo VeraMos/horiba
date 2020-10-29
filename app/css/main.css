@@ -69,6 +69,8 @@ a:hover {
   width: 100%;
   padding: 153px 0 100px;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-slider__block:before {
@@ -89,7 +91,7 @@ a:hover {
   font-size: 100px;
   line-height: 30px;
   font-family: 'HelveticaNeueCyr';
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   font-weight: 900;
 }
 
@@ -141,13 +143,17 @@ a:hover {
   background-size: cover;
 }
 
+.btn-slider:focus {
+  outline: none;
+}
+
 .main-slider__text {
   position: relative;
   z-index: 5;
 }
 
 .about-index {
-  background: #E5E5E5;
+  background: #f8f8f8;
   padding: 100px 0;
 }
 
@@ -248,19 +254,20 @@ a:hover {
   list-style: none;
   margin: 0;
   padding: 0;
-  max-width: 430px;
+  max-width: 435px;
   margin-right: 50px;
 }
 
 .about-index__link {
   font-size: 20px;
   line-height: 22px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   color: #000;
   font-weight: 700;
   display: block;
   z-index: 5;
   position: relative;
+  min-height: 44px;
 }
 
 .about-index__link:hover {
@@ -415,6 +422,57 @@ a:hover {
   color: #000;
 }
 
+.prev-left {
+  position: absolute;
+  z-index: 4;
+  width: 41px;
+  height: 41px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../img/str-b.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  top: 53%;
+  left: 150px;  
+  outline: none;
+  padding: 15px;
+}
+
+.prev-right {
+  position: absolute;
+  z-index: 4;
+  width: 41px;
+  height: 41px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../img/str-b.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transform: rotate(180deg);
+  top: 55%;
+  right: 150px;
+  outline: none;
+  padding: 15px;
+}
+
+.prev-left:focus, .prev-right:focus {
+  outline: none;
+}
+
+.prev-left:hover, .prev-right:hover {
+  background-image: url("../img/str-activ.svg");
+}
+
+.prev-left:hover {
+  transform: rotate(180deg);
+}
+
+.prev-right:hover {
+  transform: none;
+}
+
 .prev-left__n {
   position: absolute;
   z-index: 4;
@@ -450,6 +508,7 @@ a:hover {
   padding: 15px;
 }
 
+
 .prev-left__n:focus, .prev-right__n:focus {
   outline: none;
 }
@@ -470,7 +529,7 @@ a:hover {
 }
 
 .news {
-  background-color: #E5E5E5;
+  background-color: #f8f8f8;
   padding: 80px 0 100px;
 }
 
@@ -687,7 +746,7 @@ a:hover {
 
 .about {
   padding: 95px 0;
-  background: url(../img/horiba-bg.png) #E5E5E5;
+  background: url(../img/horiba-bg.png) #f8f8f8;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 100% 50%;
@@ -870,4 +929,32 @@ a:hover {
   color: #ACACAC;
   display: block;
   margin: 0;
+}
+
+.popup__ttl {
+  font-family: 'HelveticaNeueCyr';
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #1191D0;
+}
+
+.popop__text {
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  max-width: 903px;
+}
+
+.main-header {
+  background-color: #fff;
+}
+
+.subscribe-form__input:focus {
+  outline: none;
 }

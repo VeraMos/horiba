@@ -4,6 +4,14 @@
 	  right: -65px;
 	  background-size: contain;
 	}
+
+	.prev-left {
+		left: 100px;
+	}
+
+	.prev-right {
+		right: 100px;
+	}
 }
 
 @media screen and (max-width: 1400px) {
@@ -30,6 +38,14 @@
 
 	.subscribe::after {
 		width: 15%;
+	}
+
+	.prev-left {
+		left: 60px;
+	}
+
+	.prev-right {
+		right: 60px;
 	}
 
 }
