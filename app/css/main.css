@@ -247,8 +247,9 @@ a:hover {
 }
 
 .about-index__link-wpr {
-  margin-top: 15px;
+  margin-top: 80px;
   display: flex;
+  position: relative;
 }
 
 .about-index__link-list {
@@ -273,10 +274,6 @@ a:hover {
 
 .about-index__link:hover {
   color: #1191D0;
-}
-
-.about-index__link-wpr {
-  position: relative;
 }
 
 .about-index__link-wpr::after {
@@ -373,7 +370,7 @@ a:hover {
 }
 
 .novelty {
-  padding: 97px 0 126px;
+  padding: 100px 0 70px;
 }
 
 .novelty-item__img {
@@ -434,7 +431,7 @@ a:hover {
   height: 41px;
   border: none;
   background-color: transparent;
-  background-image: url("../img/str-b.svg");
+  background-image: url("../img/str-w1.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -451,12 +448,12 @@ a:hover {
   height: 41px;
   border: none;
   background-color: transparent;
-  background-image: url("../img/str-b.svg");
+  background-image: url("../img/str-w1.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   transform: rotate(180deg);
-  top: 55%;
+  top: 53%;
   right: 150px;
   outline: none;
   padding: 15px;
@@ -536,7 +533,7 @@ a:hover {
 
 .news {
   background-color: #f8f8f8;
-  padding: 80px 0 100px;
+  padding: 100px 0;
 }
 
 .news-link__wpr {
@@ -671,7 +668,7 @@ a:hover {
 }
 
 .subscribe {
-  padding: 52px 0 87px;
+  padding: 100px 0;
   position: relative;
 }
 
@@ -755,7 +752,7 @@ a:hover {
 }
 
 .about {
-  padding: 95px 0;
+  padding: 100px 0;
   background: url(../img/horiba-bg.png) #f8f8f8;
   background-repeat: no-repeat;
   background-size: contain;
@@ -795,7 +792,7 @@ a:hover {
 }
 
 .main-footer {
-  padding: 105px 0;
+  padding: 100px 0;
 }
 
 .main-footer__inn {
@@ -1179,3 +1176,28 @@ a:hover {
 .news-item.slick-list {
   overflow: visible!important;
 }
+
+.main-slider .slick-dots {
+    text-align: left!important;
+    margin-left: 300px!important;    
+    bottom: 50px!important;
+}
+
+.main-slider .slick-dots li button:before{
+  font-size: 9px!important;
+  color: #fff!important;
+  opacity: 1!important;
+}
+
+.main-slider .slick-dots li.slick-active button:before{
+  content: ""!important;
+  background-image: url('../img/sli-d.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 45px!important;
+  background-position-y: 60%;
+  }
+
+  .main-slider .slick-dots li.slick-active {
+    width: 45px!important;
+  }

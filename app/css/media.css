@@ -12,6 +12,10 @@
 	.prev-right {
 		right: 100px;
 	}
+
+	.main-slider .slick-dots {
+		margin-left: 140px!important;
+	}
 }
 
 @media screen and (max-width: 1400px) {
@@ -47,6 +51,7 @@
 	.prev-right {
 		right: 60px;
 	}
+
 
 }
 
