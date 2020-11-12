@@ -40,8 +40,12 @@ a:hover {
 
 .header-wrp {
   height: 100px;
-  align-items: center;
   justify-content: space-between;
+}
+
+.header-logo {
+  margin: 32px 0;
+  display: block;
 }
 
 .header-menu__link {
@@ -686,7 +690,7 @@ a:hover {
 }
 
 .subscribe {
-  padding: 100px 0;
+  padding: 52px 0 100px;
   position: relative;
 }
 
@@ -731,15 +735,17 @@ a:hover {
 }
 
 .subscribe-block p {
-  max-width: 535px;
+  max-width: 545px;
   font-size: 16px;
   line-height: 28px;
   color: #262626;
+  margin-bottom: 96px;
 }
 
 .subscribe-form {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .subscribe-form__input {
@@ -1188,6 +1194,12 @@ a:hover {
   margin-bottom: 30px;
 }
 
+.header-submenu__link.main {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+}
+
 .header-submenu__link:hover {
   color: #1191D0;
 }
@@ -1219,4 +1231,8 @@ a:hover {
 
   .main-slider .slick-dots li.slick-active {
     width: 45px!important;
+  }
+
+  .slick-dotted.slick-slider {
+    margin-bottom: 0!important;
   }

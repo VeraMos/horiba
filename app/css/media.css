@@ -52,6 +52,11 @@
 		right: 60px;
 	}
 
+	.header-submenu__link.main {
+	  font-size: 18px;
+  	  line-height: 22px;
+}
+
 
 }
 
