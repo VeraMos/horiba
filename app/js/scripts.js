@@ -16,6 +16,8 @@ $(document).ready(function () {
         $('[data-tab]').removeClass('active');
         $('section[data-tab="' + target + '"]').addClass('active');
         $(this).toggleClass('active');
+        $('.novelty-list').slick('refresh');
+        $('.news-slider').slick('refresh');
     });
 
    $('.novelty-list').slick({
@@ -65,6 +67,7 @@ $(document).ready(function () {
         ]
     });
 
+   
     $('.news-slider').slick({
         infinite: true,
         slidesToShow: 4,

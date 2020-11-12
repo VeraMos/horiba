@@ -59,10 +59,23 @@ a:hover {
 .header-search__btn {
   border: none;
   background: transparent;
+  display: block;
+  margin: 31px 0 50px;
+  width: 41px;
+  border-radius: 50%;
+}
+
+.header-search__btn:hover {
+  background: #2DBAFF;
+}
+
+.header-search__btn:hover svg {
+  fill: #fff;
 }
 
 .header-search__btn svg {
-  margin-top: -5px;
+  margin-top: -1px;
+  fill: #000;
 }
 
 .main-slider__block {
@@ -370,7 +383,7 @@ a:hover {
 }
 
 .novelty {
-  padding: 100px 0 70px;
+  padding: 100px 0 70px;  
 }
 
 .novelty-item__img {
@@ -388,6 +401,10 @@ a:hover {
 .novelty-item {
   max-width: 384px;
   margin: 10px;
+}
+
+.novelty-item:hover .novelty-item__ttl{
+  color: #1191D0;
 }
 
 .novelty-item:first-child {
@@ -413,6 +430,7 @@ a:hover {
   font-size: 16px;
   line-height: 30px;
   color: #000;
+  margin-bottom: 0;
 }
 
 .novelty-item__ttl {
@@ -533,7 +551,7 @@ a:hover {
 
 .news {
   background-color: #f8f8f8;
-  padding: 100px 0;
+  padding: 100px 0 0;
 }
 
 .news-link__wpr {
@@ -1077,6 +1095,7 @@ a:hover {
   padding: 0;
   background: transparent;
   width: 83%;
+  color: #fff;
 
 }
 
