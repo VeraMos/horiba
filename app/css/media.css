@@ -1,8 +1,7 @@
 @media screen and (max-width: 1700px) {
 
-	.about-index__link-wpr::after {
+	.about-index__inn::after{
 	  right: -65px;
-	  background-size: contain;
 	}
 
 	.prev-left {
@@ -14,7 +13,7 @@
 	}
 
 	.main-slider .slick-dots {
-		margin-left: 140px!important;
+		padding-left: 140px!important;
 	}
 }
 
@@ -31,9 +30,8 @@
 		margin-bottom: 25px;
 	}
 
-	.about-index__link-wpr::after {
-	  right: -200px;
-	  background-size: contain;
+	.about-index__inn::after {
+	  right: -250px;
 	}
 
 	.subscribe-block {
@@ -55,7 +53,11 @@
 	.header-submenu__link.main {
 	  font-size: 18px;
   	  line-height: 22px;
-}
+	}
+
+	.about-index__inn::before {
+		opacity: 0;
+	}
 
 
 }
