@@ -425,6 +425,16 @@ a:hover {
   margin-left: -50px;
 }
 
+.about-inner .section-ttl {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  background: #fff;
+  padding-left: 50px;
+  margin-left: -50px;
+  margin-bottom: 40px;
+}
+
 .about .section-ttl {
   position: relative;
   z-index: 2;
@@ -1342,4 +1352,44 @@ a:hover {
     transform: rotate(-90deg);
     background: #f8f8f8;
     padding: 0 6px;
+  }
+
+  .crumbs__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .crumbs {
+    padding: 50px 0;
+  }
+
+  .crumbs__item {
+    position: relative;
+    padding-right: 40px;
+  }
+
+  .crumbs__item:after {
+    content: "";
+    position: absolute;
+    top: 14.5px;
+    right: 10px;
+    background: url('../img/crumb-str.svg') no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 5px;
+  }
+
+  .crumbs__item:last-child:after {
+    opacity: 0
+  }
+
+  .about-inner__subttl {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .about-inner {
+    padding-bottom: 70px;
   }
