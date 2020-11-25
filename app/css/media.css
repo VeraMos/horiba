@@ -59,6 +59,10 @@
 		opacity: 0;
 	}
 
+	.news-inn .news-item {
+    width: 310px;
+	}
+
 
 }
 
