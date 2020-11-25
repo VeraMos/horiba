@@ -377,6 +377,10 @@ a:hover {
   border: none;
 }
 
+.btn:focus {
+  outline: none;
+}
+
 .btn:after {
   content: "";
   position: absolute;
@@ -1473,6 +1477,17 @@ a:hover {
   background: #f8f8f8;
 }
 
+.contacts-form .btn {
+  width: 295px;
+}
+.contacts-form .btn:after {
+    top: 20px;
+    right: 28px;
+    width: 7px;
+    height: 12px;
+    background-size: contain;
+  }
+
 .contacts-form__img {
   margin-right: -175px;
   max-width: 940px;
@@ -1485,6 +1500,106 @@ a:hover {
 .contacts-form__inn-wpr {
   width: 50%;
   max-width: 788px;
+}
+
+.contacts-form__inn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contacts-form__inn input {
+  width: 48%;
+}
+
+.contacts-form__inn-wpr .section-ttl span{
+  color: #1191D0;
+}
+
+.contacts-form__inn-wpr p{
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.news-inn .news-item {
+  width: 370px;
+}
+
+.news-inner .section-ttl {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    background: #f8f8f8;
+    padding-left: 50px;
+    margin-left: -50px;
+    margin-bottom: 40px;
+}
+
+.news-inner {
+  background: #f8f8f8;
+}
+
+.news-inn {
+  justify-content: space-between;
+}
+
+.pagin-block__list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.pagin-block__list a{
+  color: inherit;
+  padding: 15px 18px;
+  font-size: 15px;
+  line-height: 17px;
+  font-family: 'HelveticaNeueCyr';
+  font-weight: 400;
+  margin: 0 1px;
+}
+
+.pagin-block__list a:hover {
+  background:  #1191D0;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.pagin-block__btn {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid #262626;
+  border-radius: 50%;
+  margin: 0 50px;
+  padding: 7px;
+}
+
+.pagin-block__btn:focus {
+  outline: none;
+}
+
+.pagin-block {
+  justify-content: center;
+}
+
+.pagin-block__btn svg {
+  stroke: #262626;
+}
+
+.pagin-block__btn:hover svg {
+  stroke: #fff;
+}
+
+.pagin-block__btn:hover {
+  background:  #1191D0;
+  border: 1px solid #1191D0;
+}
+
+.pagination {
+  padding: 60px 0 100px;
 }
 
 
