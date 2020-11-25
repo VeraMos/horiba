@@ -1393,3 +1393,30 @@ a:hover {
   .about-inner {
     padding-bottom: 70px;
   }
+
+  .about-inner__img {
+    float: right;
+    padding: 0 0 30px 30px;
+    max-width: 665px;
+    position: relative;
+  }
+
+  .about-inner p {
+    margin-bottom: 25px;
+  }
+
+  .about-inner__img:before {
+    position: absolute;
+    content: "";
+    top: 40%;
+    left: 50%;
+    width: 71px;
+    height: 71px;
+    background: url('../img/about-video.svg') no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .about-inner__img img {
+    width: 100%;
+  }
