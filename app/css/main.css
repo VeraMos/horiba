@@ -1420,3 +1420,71 @@ a:hover {
   .about-inner__img img {
     width: 100%;
   }
+
+  .contacts-inner .section-ttl {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    background: #fff;
+    padding-left: 50px;
+    margin-left: -50px;
+    margin-bottom: 40px;
+}
+
+.contacts-inner__block {
+  max-width: 600px;
+}
+
+.contacts-inner__block p {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.contacts-inner__block-ttl {
+  font-weight: 700;  
+  margin-bottom: 20px!important;
+}
+
+.contacts-inner__block a {
+  display: block;
+  color: #000;
+}
+
+.contacts-inner__block a:hover {
+  text-decoration: underline;
+}
+
+.contacts-inner__img {
+  width: 60%;
+  max-width: 924px;
+}
+
+.contacts-inner__img img {
+  width: 100%;
+}
+
+.contacts-inner__block-wpr {
+  justify-content: space-between;
+}
+
+.contacts-form {
+  padding: 150px 0 100px;
+  background: #f8f8f8;
+}
+
+.contacts-form__img {
+  margin-right: -175px;
+  max-width: 940px;
+}
+
+.contacts-form__img img {
+  width: 100%;
+}
+
+.contacts-form__inn-wpr {
+  width: 50%;
+  max-width: 788px;
+}
+
+
