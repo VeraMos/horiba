@@ -1619,19 +1619,134 @@ a:hover {
   color: #fff;
 }
 
-.news-inner {
+.news-inn {
   background: #f8f8f8;
   padding-bottom: 100px;
 }
 
-.news-inner__inn {
+.news-inn__wpr {
   background: #fff;
   padding: 50px 45px 90px;
 }
 
-.news-inner__img img {
+.news-inn__img img {
   width: 100%;
   margin: 40px 0 50px; 
+}
+
+.news-inn .section-ttl {
+  font-size: 40px;
+  line-height: 55px;
+  margin: 30px 0 55px;
+}
+
+.news-inn__video img {
+  width: 100%;
+}
+
+.news-inn__video {
+  margin: 40px 60px 0;
+  position: relative;
+}
+
+.news-inn__video:after {
+  position: absolute;
+  content: "";
+  top: 35%;
+  left: 50%;
+  width: 106px;
+  height: 106px;
+  background: url('../img/about-video.svg') no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.news-inn__news-link a {
+  text-decoration-line: underline;
+  color: #000;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 25px;
+  display: block;
+  font-family: 'HelveticaNeueCyr';
+}
+
+.news-inn__news-link {
+  justify-content: flex-end;
+}
+
+.news-inn__news-link a:last-child {
+  margin-right: 0;
+}
+
+.news-inn__news-link a:hover {
+  color: #1191D0;
+}
+
+.news-inn__data {
+  font-family: 'HelveticaNeueCyr';
+  color: #000;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 7px 0 0;
+}
+
+.news-inn__link {
+  font-family: 'HelveticaNeueCyr';
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  background-color: #1191D0;
+  padding: 7px 10px 4px;
+  border-radius: 5px;
+  margin: 0 13px;
+}
+
+.news-inn__link:hover {
+  color: #fff;
+}
+
+.news-inn__data-wpr {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.news-inn__ttl {
+  font-weight: 700;
+}
+
+.news-inn__wpr p {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.news-inn__block-wpr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-inn__block {
+  max-width: 828px;
+  width: 57%;
+}
+
+.news-inn__block-img {
+  display: flex;
+  flex-direction: column;
+  max-width: 595px;
+  width: 40%;
+}
+
+.news-inn__block-img img {
+  width: 100%;
+}
+
+.news-inn__block-ttl {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  margin-top: 34px;
 }
 
 
