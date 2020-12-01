@@ -1966,3 +1966,46 @@ a:hover {
   font-size: 18px;
   line-height: 30px;
 }
+
+.servises {
+  background: #f8f8f8;
+}
+
+.servises-list {
+  justify-content: space-between;
+  padding: 58px 0 100px;
+  background: #f8f8f8;
+}
+
+.servises-item {
+  max-width: 384px;
+  height: 216px;
+  background: #1191D0;
+  border-radius: 5px;
+  font-family: HelveticaNeueCyr;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  padding: 25px 35px 0 30px;
+  overflow: hidden;
+}
+
+.servises .section-ttl {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    background: #f8f8f8;
+    padding-left: 50px;
+    margin-left: -50px;
+    margin-bottom: 40px;
+}
+
+.servises-item img {
+  display: block;
+  margin-left: auto;
+}
+
+.servises-about__inn {
+  background: #fff;
+}
