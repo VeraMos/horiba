@@ -122,4 +122,12 @@ $('.search-close').click(function () {
         $('.search-block').hide();
     });
 
+$('.show-vacan').click(function () {
+        $(this).parent('.vacancy-item').addClass('active');
+    });
+
+$('.hide-vacan').click(function () {
+        $(this).parent('.vacancy-item').removeClass('active');
+    });
+
   });

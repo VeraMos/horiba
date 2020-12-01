@@ -1310,6 +1310,18 @@ a:hover {
     top: 20px;
   }
 
+  .section__zero:before {
+    position: absolute;
+    top: -15px;
+    left: 40px;
+    content: "";
+    color: #262626;
+    font-size: 18px;
+    transform: rotate(-90deg);
+    background: #f8f8f8;
+    padding: 0 6px;
+  }
+
   .section__one:before {
     position: absolute;
     top: -15px;
@@ -1749,4 +1761,130 @@ a:hover {
   margin-top: 34px;
 }
 
+.vacancy .section-ttl {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    background: #f8f8f8;
+    padding-left: 50px;
+    margin-left: -50px;
+    margin-bottom: 40px;
+}
 
+.vacancy {
+  background: #f8f8f8;
+}
+
+.vacancy-item {
+  background: #fff;
+  padding: 40px 54px;
+  margin: 0 0 20px;
+}
+
+.vacancy__subttl {
+  font-size: 30px;
+  line-height: 55px;
+  color: #171717;
+  font-family: 'HelveticaNeueCyr';
+  margin-top: -40px;
+}
+
+.vacancy-item__inn {
+  display: none;
+}
+
+.vacancy-item.active .vacancy-item__inn {
+  display: block;
+}
+
+.hide-vacan {
+  display: none;
+}
+
+.vacancy-item.active .hide-vacan {
+  display: inline-block;
+}
+
+.vacancy-item.active .show-vacan {
+  display: none;
+}
+
+.vacancy-item__ttl {
+  font-family: 'HelveticaNeueCyr';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 55px;
+  color: #1191D0;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.show-vacan, .hide-vacan {
+  font-family: HelveticaNeueCyr;
+  font-size: 16px;
+  line-height: 55px;
+  text-decoration-line: underline;
+  color: #1191D0;
+}
+
+.vacancy-item__inn ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.vacancy-item__inn p, .vacancy-item__inn ul {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: HelveticaNeueCyr;
+  color: #262626;
+  margin-bottom: 0;
+}
+
+.banner-inner__text-wpr {
+  position: relative;
+}
+
+.banner-inner__text {
+  padding: 68px 0;
+}
+
+.banner-inner__img {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.banner-inner__text-t{
+  color: #fff;
+  font-family: HelveticaNeueCyr;
+  font-size: 25px;
+  line-height: 30px;
+  position: relative;
+}
+
+.banner-inner__text-ttl {
+  font-family: HelveticaNeueCyr;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 52px;
+  margin-bottom: 25px;
+  color: #fff;
+  position: relative;
+}
+
+.banner-inner__img:before {
+    content: '';
+    top: 0;
+    left: 0;
+    background-image: url(../img/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -13px;
+    position: absolute;
+    max-width: 816px;
+    width: 50%;
+    height: 100%;
+    z-index: 0;
