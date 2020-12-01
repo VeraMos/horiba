@@ -2006,6 +2006,67 @@ a:hover {
   margin-left: auto;
 }
 
-.servises-about__inn {
-  background: #fff;
+.servises-item p {
+  min-height: 83px;
+  margin-bottom: 0;
+}
+
+.servises-about {
+  background: #f8f8f8;
+  padding: 90px 0;
+}
+
+.servises-about__block {
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.servises-about__text {
+  max-width: 736px;
+  width: 49%;
+}
+
+.servises-about__text p,  .servises-about__text ul{
+  font-family: HelveticaNeueCyr;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.servises-about__subttl {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.servises-about__text ul {
+  margin: 0 0 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.servises-about__form {
+  width: 49%;
+  max-width: 822px;
+}
+
+.servises-about__subttl:first-child {
+  margin-top: 0;
+}
+
+.servises-about__form .btn {
+    width: 295px;
+}
+
+.servises-about__form .btn:after {
+    top: 20px;
+    right: 28px;
+    width: 7px;
+    height: 12px;
+    background-size: contain;
+}
+
+.servises-about__form .popup__policy {
+  margin: 0;
 }
