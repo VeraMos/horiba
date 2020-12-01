@@ -1989,6 +1989,7 @@ a:hover {
   color: #FFFFFF;
   padding: 25px 35px 0 30px;
   overflow: hidden;
+  width: 25%;
 }
 
 .servises .section-ttl {
@@ -2070,3 +2071,78 @@ a:hover {
 .servises-about__form .popup__policy {
   margin: 0;
 }
+
+.jq-file {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin-bottom: 60px;
+    box-shadow: none;
+    align-items: center;
+}
+
+.jq-file__name {
+  font: 16px/28px 'HelveticaNeueCyr';
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  border-radius: 0;
+  color: #000;
+  padding: 6px 30px;
+  position: relative;
+}
+
+.jq-file__name:before {
+  opacity: 0.2;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 2px;
+  background: #000;
+}
+
+.jq-file__browse {
+    padding: 14px 40px;
+    border: none;
+    border-radius: 50px;
+    background: #1191D0;
+    box-shadow: none;
+    text-shadow: none;
+    height: 50px;
+    font-family: 'Formular';
+    min-width: 275px;
+    position: relative;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 30px;
+}
+
+.jq-file__browse:after {
+  content: "";
+  position: absolute;
+  background: url('../img/skreb.svg');
+  background-repeat: no-repeat; 
+  width: 22px;
+  height: 22px;
+  top: 14px;
+  right: 44px;
+}
+
+.jq-file input {
+    position: relative;
+    width: 1%;
+  }
+
+  .jq-file:active .jq-file__browse {
+    background: #1191D0;
+    box-shadow: transparent;
+  }
+
+  .jq-file:hover .jq-file__browse {
+    background: #1191D0;
+  }
