@@ -1888,3 +1888,81 @@ a:hover {
     width: 50%;
     height: 100%;
     z-index: 0;
+}
+
+.laborat .section-ttl {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    background: #f8f8f8;
+    padding-left: 50px;
+    margin-left: -50px;
+    margin-bottom: 40px;
+}
+
+.laborat__subttl {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.laborat p, .laborat-inn p{
+  font-size: 16px;
+  line-height: 28px;
+  font-family: HelveticaNeueCyr;
+  color: #262626;
+}
+
+.laborat__img {
+  margin: 40px 0;
+}
+
+.laborat__img img {
+  width: 100%;
+}
+
+.laborat {
+  padding-bottom: 90px;
+}
+
+.laborat-inn {
+  padding: 100px 0 0;
+  background: #f8f8f8;
+}
+
+.laborat-inn__text {
+  max-width: 922px;
+  width: 57%;
+}
+
+.laborat-inn__img {
+  max-width: 595px;
+  width: 43%;
+  position: relative;
+}
+
+.laborat-inn__block {
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.laborat-inn__img img{
+  width: 100%;
+}
+
+.laborat-inn__img:after {
+  position: absolute;
+  content: "";
+  top: 35%;
+  left: 42%;
+  width: 71px;
+  height: 71px;
+  background: url('../img/about-video.svg') no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.contacts__text {
+  text-align: left;
+  font-size: 18px;
+  line-height: 30px;
+}
