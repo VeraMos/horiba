@@ -18,20 +18,16 @@
 }
 
 @media screen and (max-width: 1400px) {
-	.about-index__text {
-		max-width: 900px;
-	}
-
 	.about-index__button {
 		width: 430px;
 	}
 
 	.about-index__link {
-		margin-bottom: 25px;
+		margin-bottom: 9px;
 	}
 
 	.about-index__inn::after {
-	  right: -250px;
+	  right: -36px;
 	}
 
 	.subscribe-block {
@@ -56,22 +52,122 @@
 	}
 
 	.about-index__inn::before {
-		opacity: 0;
+		display: none;
 	}
 
 	.news-inn .news-item {
-    width: 310px;
+    	width: 310px;
+	}
+
+	.about-index__button {
+		width: 440px;
+	}
+
+	.about-index__inn::after {
+		width: 37%;
+	}
+
+	.about-index__link-list {
+		margin-right: 15px;
+	}
+
+	.about-block {
+		width: 48%;
+	}
+
+	.about-index__text {
+		width: 66%;
 	}
 
 
 }
 
 @media screen and (max-width: 1200px) {
+	.header-menu {
+		justify-content: flex-end;
+	}
 
+	.about-index__button {
+		width: 370px;
+		padding: 18px 10px 21px;
+		height: 60px;
+	}
+
+	.about-index__link {
+		min-height: 34px;
+		margin-bottom: 10px;
+		font-size: 18px;
+	}
+
+	.about-index__link-list {
+		max-width: 420px;		
+	}
+
+	.subscribe {
+    	padding: 30px 0 30px;
+	}
+
+	.subscribe-block p {
+		margin-bottom: 60px;
+	}
+
+	.subscribe-block {
+		width: 38%;
+		margin-left: 0px;
+	}
+
+	.subscribe-ttl {
+		max-width: 45%;
+		font-size: 40px;
+    	line-height: 50px;
+	}
 }
 
 @media screen and (max-width: 1024px) {
-	
+	.about-index__img {
+		display: none;
+	}
+
+	.about-index__block {
+		flex-direction: column;
+		padding-bottom: 40px;
+	}
+
+	.about-index__ttl-inn {
+		margin-bottom: 15px;
+		font-size: 40px;
+    	line-height: 45px;
+	}
+
+	.about-index__ttl {
+		max-width: 100%;
+	}
+
+	.about-index__text {
+    	width: 100%;
+	}
+
+	.main-slider__block:before {
+		background-size: 66% 100%;
+	}
+
+	.about-index__ttl-inn img {
+		display: inline-block;
+		width: 270px;
+		margin: 0 0 15px 20px;
+	}
+
+	.about-index__ttl p {
+		margin-bottom: 0
+	}
+
+	.about-index__text p {
+		font-size: 16px;
+	}
+
+	.active.about-index__tab-one .about-index__inn::after {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 992px) {

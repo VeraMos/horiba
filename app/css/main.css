@@ -209,6 +209,7 @@ a:hover {
   line-height: 30px;
   max-width: 1109px;
   margin-bottom: 30px;
+  width: 72%;
 }
 
 .about-index__list {
@@ -847,8 +848,9 @@ a:hover {
 }
 
 .about-block {
-  width: 725px;
+  max-width: 725px;
   margin: 35px 0 0;
+  width: 50%;
 }
 
 .about__btn {
@@ -860,10 +862,11 @@ a:hover {
 }
 
 .about__img {
-  max-width: 50%;
+  max-width: 790px;
   margin-top: -50px;
   overflow: hidden;
   position: relative;
+  width: 50%;
 }
 
 .about__img img {
@@ -2793,4 +2796,8 @@ a:hover {
 
 .product-stock svg{
   margin: 0px 0 3px 10px;
+}
+
+.about-index__ttl-inn img{
+  display: none;
 }
