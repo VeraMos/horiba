@@ -15,6 +15,14 @@
 	.main-slider .slick-dots {
 		padding-left: 140px!important;
 	}
+
+	.subscribe::after {
+		right: -77px;
+	}
+
+	.about-index__button {
+		max-width: 470px;
+	}
 }
 
 @media screen and (max-width: 1400px) {
@@ -79,7 +87,6 @@
 		width: 66%;
 	}
 
-
 }
 
 @media screen and (max-width: 1200px) {
@@ -120,6 +127,10 @@
 		max-width: 45%;
 		font-size: 40px;
     	line-height: 50px;
+	}
+
+	.about__img {
+		margin-top: 50px;
 	}
 }
 
@@ -165,8 +176,144 @@
 		font-size: 16px;
 	}
 
-	.active.about-index__tab-one .about-index__inn::after {
-		display: none;
+	.footer-item__link {
+		font-size: 16px;
+	}
+
+	.footer-tel {
+		font-size: 25px;
+	}
+
+	.about-block {
+    	max-width: 427px;
+	}
+
+	.about__img {
+		margin-top: 50px;
+	}
+
+	.section-ttl {
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	.about-index__button {
+		font-size: 14px;
+		max-width: 320px;
+	}
+
+	.about-index__item {
+    	margin: 0 7px;
+	}
+
+	.about-index__link {
+		font-size: 14px;
+		min-height: 27px;
+	}
+
+	.about-index__link-list {
+    	max-width: 329px;
+	}
+
+	.about-index__inn-ttl {
+		font-size: 30px;
+		font-weight: 700;
+	}
+
+	.about-index__inn p {
+    	margin-bottom: 20px;
+	}
+
+	.about-index__inn-ttl {
+		margin: 50px 0 0;
+	}
+
+	.novelty-item__img {
+		height: 225px;
+	}
+
+	.news {
+		padding: 50px 0 0;
+	}
+
+	.news-ttl__link {
+		font-size: 18px;
+		padding: 10px 15px;
+	}
+
+	.news-link__wpr {
+		justify-content: flex-start;
+		margin-left: -15px;
+		padding: 27px 0 10px;
+	}
+
+	.news-item {
+		padding: 20px 15px 15px;
+	}
+
+	.news-item__ttl {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.about-index {
+		padding: 70px 0;
+	}
+
+	.subscribe-ttl {
+    	max-width: 38%;
+    	padding: 20px;
+    	min-height: 336px;
+	}
+
+	.subscribe {
+		overflow: hidden;
+	}
+
+	.subscribe::after {
+		right: -50px;
+	}
+
+	.subscribe-form {
+		max-width: 500px;
+	}
+
+	.subscribe-block {
+    	width: 76%;
+	}
+
+	.subscribe::before {
+		width: 36%;
+	}
+
+	.banner-ttl {
+		font-size: 75px;
+	}
+
+	.banner-subttl {
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	.banner-text {
+		font-size: 18px;
+		max-width: 300px;
+		line-height: 25px;
+	}
+
+	.btn-slider:after {
+		top: 22px;
+	    right: 36px;
+	    width: 8px;
+	    height: 10px;
+	    background-size: contain;
+	}
+
+	.btn-slider {
+		font-size: 11px;
+		width: 200px;
+    	height: 50px;
+	    padding: 18px 29px;
 	}
 }
 
@@ -176,6 +323,30 @@
 }
 
 @media screen and (max-width: 768px) {
+	.header-menu {
+		display: none!important;
+	}
+
+	 .header__menu-toggle {
+    	display: block;
+  	}
+  	.header__menu-toggle span {
+    	display: block;
+  	}
+  	.header__menu-toggle--active span::before {
+    	display: block;
+  	}
+  	.header__menu-toggle span::after {
+    	display: block;
+  	}
+
+  	.header-wrp {
+  		max-width: 92%;
+  	}
+
+  	.header-menu.active {
+  		display: flex!important;
+  	}
 	
 }
 

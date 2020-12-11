@@ -30,14 +30,14 @@ $(document).ready(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                 }
             },
             {
-                breakpoint: 768,
+                breakpoint: 769,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                 }
             },
@@ -45,7 +45,7 @@ $(document).ready(function () {
                 breakpoint: 576,
                 settings: {
                     //dots: true,
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     centerMode: true,
                     variableWidth: true,                
@@ -77,22 +77,22 @@ $(document).ready(function () {
             {
                 breakpoint: 1200,
                 settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 769,
+                settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
                 }
             },
             {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 576,
+                breakpoint: 577,
                 settings: {
                     //dots: true,
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     centerMode: true,
                     variableWidth: true, 
@@ -138,6 +138,12 @@ $('.servises-about__form-file').styler({
            // к открытому селекту добавляется красная обводка
             $(this).css('box-shadow: 0px 15px 31px rgba(0, 0, 0, 0.1);');
         }
+    });
+
+$('.header__menu-toggle').on('click', function(e) {
+      e.preventDefault();
+      $(this).toggleClass('header__menu-toggle--active');
+      $('.header-menu').toggleClass('active');
     });
 
   });

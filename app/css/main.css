@@ -261,7 +261,6 @@ a:hover {
 
 
 .about-index__inn-ttl {
-  font-size: 40px;
   font-family: 'HelveticaNeueCyr';
   font-size: 40px;
   line-height: 42px;
@@ -756,6 +755,7 @@ a:hover {
 .subscribe {
   padding: 52px 0 100px;
   position: relative;
+  overflow: hidden;
 }
 
 .subscribe::before {
@@ -2800,4 +2800,63 @@ a:hover {
 
 .about-index__ttl-inn img{
   display: none;
+}
+
+ .header__menu-toggle { 
+  z-index: 15;
+  display: none;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  outline-color: transparent;
+  top: 58px;
+  right: 3%;
+  background-color: transparent;
+  border: none;
+}
+
+.header__menu-toggle:focus {
+  outline: none;
+}
+
+.header__menu-toggle span, span::before, span::after {
+  display: none;
+  height: 3px;
+  width: 40px;
+  position: absolute;
+  left: 40%;
+  margin-left: -16px;
+  top: 0;
+  margin-top: -10px;
+  background-color: #3E3E3E;
+}
+
+.header__menu-toggle span::before {
+  transition: all 0.2s;
+  content: "";
+  margin-top: -6px;
+}
+
+.header__menu-toggle span::after {
+  transition: all 0.2s;
+  content: "";
+  margin-top: 6px;
+}
+
+.header__menu-toggle--active span {
+  background-color: transparent;
+}
+
+.header__menu-toggle--active span::before  {
+  transform: rotate(135deg);
+  margin-top: 0;
+}
+
+.header__menu-toggle--active span::after {
+  transform: rotate(-135deg);
+  margin-top: 0;
+}
+
+.part-item__block-link.active .part-item__popup{
+  display: block;
 }
