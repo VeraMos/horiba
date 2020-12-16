@@ -2865,3 +2865,23 @@ a:hover {
 .about-img__mobile {
   display: none;
 }
+
+.banner-inner img {
+  width: 100%;
+}
+
+.about-inner__img-mobile {
+  display: none;
+}
+
+.about-inner__image {
+  margin: 50px 0;
+}
+
+.about-inner__img {
+  display: none;
+}
+
+.about-inner__image img {
+  width: 100%;
+}
