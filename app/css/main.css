@@ -766,6 +766,7 @@ a:hover {
   background-image: url('../img/subscr-bg1.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: 100%;
   width: 41%;
   height: 100%;
 }
@@ -2822,10 +2823,10 @@ a:hover {
 .header__menu-toggle span, span::before, span::after {
   display: none;
   height: 3px;
-  width: 40px;
+  width: 27px;
   position: absolute;
   left: 40%;
-  margin-left: -16px;
+  margin-left: -11px;
   top: 0;
   margin-top: -10px;
   background-color: #3E3E3E;
@@ -2859,4 +2860,8 @@ a:hover {
 
 .part-item__block-link.active .part-item__popup{
   display: block;
+}
+
+.about-img__mobile {
+  display: none;
 }
