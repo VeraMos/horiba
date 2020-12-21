@@ -908,7 +908,9 @@
 	}
 
 	.about-inner__img:before {
-		left: 46%;
+		left: 45%;
+		width: 55px;
+    	height: 55px;
 	}
 
 	.about-inner .section-ttl {

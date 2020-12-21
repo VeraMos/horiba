@@ -2888,3 +2888,7 @@ a:hover {
 .about-inner__image img {
   width: 100%;
 }
+
+.contacts-inner {
+  margin-bottom: 100px;
+}
