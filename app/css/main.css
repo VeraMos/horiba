@@ -346,6 +346,8 @@ a:hover {
 .about-index__inn {
   position: relative;
   overflow: hidden;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .about-index__inn::before {
@@ -415,7 +417,7 @@ a:hover {
   position: relative;
   z-index: 2;
   overflow: hidden;
-  background: #fff;
+  background: #f8f8f8;
   padding-left: 50px;
   margin-left: -50px;
 }
@@ -424,7 +426,7 @@ a:hover {
   position: relative;
   z-index: 2;
   overflow: hidden;
-  background: #fff;
+  background: #f8f8f8;
   padding-left: 50px;
   margin-left: -50px;
 }
@@ -486,7 +488,7 @@ a:hover {
   color: #1191D0;
   padding: 15px 40px 0;
   font-weight: 400;
-  background: #fff;
+  background: #f8f8f8;
   overflow: hidden;
   z-index: 2;
 }

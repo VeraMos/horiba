@@ -31,6 +31,14 @@
 	.news-inn .news-item {
 	    width: 23%;
 	}
+
+	.about-index__button {
+		width: 420px;
+	}
+
+	.subscribe-ttl {
+		font-size: 47px;
+	}
 }
 
 @media screen and (max-width: 1440px) {
@@ -45,13 +53,10 @@
 	.pagination {
     	padding: 0px 0 100px;
 	}
+	
 }
 
 @media screen and (max-width: 1400px) {
-	.about-index__button {
-		width: 430px;
-	}
-
 	.about-index__link {
 		margin-bottom: 9px;
 	}
@@ -83,11 +88,6 @@
 
 	.about-index__inn::before {
 		display: none;
-	}
-
-
-	.about-index__button {
-		width: 440px;
 	}
 
 	.about-index__inn::after {
